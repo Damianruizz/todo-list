@@ -1,6 +1,6 @@
-import { ADD_ARTICLE } from "../constants/action-types";
+import { ADD_TASK } from "../constants/action-types";
 
 // src/js/actions/index.js
-export function addArticle(payload) {
-  return { type: ADD_ARTICLE, payload }
+export function addTask(payload) {
+  return { type: ADD_TASK, payload }
 };
